@@ -52,4 +52,4 @@ There is no magic panacea for determining an algorithm.  In fact, most problems 
 [This section](algorithms.md) contains a list of the MINIMAL amount of algorithms you should know for the interview.
 
 # Concepts
-[This section](concepts) contains a list of the MINIMAL amount of concepts you should know for the interview.
+[This section](concepts.md) contains a list of the MINIMAL amount of concepts you should know for the interview.
