@@ -13,7 +13,7 @@ A technical interview question can be solved utilizing a five step approach:
 5. Test your code and carefully fix any mistakes.
 
 ### Ask Questions
-Ask questions to resolve ambiguities or uncertainties.  In my case, confirming inputs meet (or don't meet) certain criteria was good.  Also confirm outputs.  **Derive tests from the inputs/outputs.**
+Ask questions to resolve ambiguities or uncertainties.  Confirm inputs meet (or don't meet) certain criteria.  Also confirm outputs and assumptions made (as applicable).  **Derive tests from the inputs/outputs.**
 
 * What are the data types?
 * How much data is there?
@@ -22,7 +22,10 @@ Ask questions to resolve ambiguities or uncertainties.  In my case, confirming i
 * Who is the user?  (if relevant)
 
 ### Design an Algorithm
-TODO:  Fill in
+This is probably going to be the tough part.  Follow the steps [outlined here](#algorithm-approaches) for help.  Don't forget to think about:
+
+* What are the space and time complexities?* What happens if there is a lot of data?* Does your design cause other issues? (e.g. if you modify an existing, well-known algorithm, did you change the big-O time for operations?)* If there are other issues, did you make the right trade-offs?* Have you leveraged any specific information given to you?  (**Pay attention to this!**  Google interviewers will specifically look for whether or not you listen to and utilize any advice/tips/etc...)
+ * This includes, e.g., data types for inputs **AND** during your actual white-boarding session.
 
 ### Pseudo-Code
 Use pseudo-code to help outline thoughts clearly and to initially hand-wave over details.  Just make sure you tell the interviewer you're writing pseudo-code.
@@ -40,7 +43,7 @@ Test your code!
 
 If the algorithm is complicated or highly numerical (bit shifting, arithmetic, etc...), consider testing while writing code rather than just at the end.
 
-When you find mistakes, don't "randomly" change stuff to fix the error.  Think about WHY the bug is occurring.
+When you find mistakes, DEBUG YOUR CODE!  Don't just "randomly" change stuff to fix the error.  Think about WHY the bug is occurring.  If you just start changing stuff without thinking about it, it's going to be a HUGE red flag in your interview and as well it should.
 
 # Data Structures
 [This section](data-structures.md) contains a list of the MINIMAL amount of data structures you should know for the interview.
