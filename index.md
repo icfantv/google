@@ -49,7 +49,9 @@ When you find mistakes, DEBUG YOUR CODE!  Don't just "randomly" change stuff to 
 [This section](data-structures.md) contains a list of the MINIMAL amount of data structures you should know for the interview.
 
 # Algorithm Approaches
-There is no magic panacea for determining an algorithm.  In fact, most problems have more than one solution.  [Here are some approaches](algorithm-approaches.md) that may work.  Note that they can also be mix-and-matched.
+There is no magic panacea for determining an algorithm.  In fact, most problems have more than one solution.  Note that they can also be mix-and-matched.
+
+TBH, I started filling this in, but it was essentially the same information in _Cracking the Coding Interview_ so for all the juicy details, just read that (which you should do anyway).
 
 # Algorithms
 [This section](algorithms.md) contains a list of the MINIMAL amount of algorithms you should know for the interview.
