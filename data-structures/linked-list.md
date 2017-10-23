@@ -1,5 +1,5 @@
-## Linked Lists
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+# Linked Lists
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list), et. al.
 
 A linear collection of data elements in which linear order is not given by physical placement in memory.  Rather, each element points to the next via means of a reference.
 
@@ -9,7 +9,7 @@ It is a data structure consisting of a group of nodes which together represent a
 
 For a doubly-linked list, an additional reference is added to each element that points to the previous element.
 
-### Performance
+## Performance
 | Operation| Average                | Worst Case                |
 |----------|------------------------|---------------------------|
 | Insert   | O(1) or constant time  | O(1) or constant time     |
@@ -17,7 +17,7 @@ For a doubly-linked list, an additional reference is added to each element that 
 | Update   | O(n) or linear time    | O(n) or linear time       |
 | Delete   | O(n) or linear time    | O(n) or linear time       |
 
-### Advantages
+## Advantages
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 
 * Linked lists are a dynamic data structure, which can grow and be pruned, allocating and deallocating memory while the program is running.
@@ -27,7 +27,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 * Items can be added or removed from the middle of list.
 * Backtracking is possible in two way linked list.
 
-### Disadvantages
+## Disadvantages
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 
 * They use more memory than arrays because of the storage used by their pointers.
@@ -35,8 +35,8 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 * Nodes are stored incontiguously, greatly increasing the time required to access individual elements within the list, especially with a CPU cache.
 * Difficulties arise in linked lists when it comes to reverse traversing. For instance, singly linked lists are cumbersome to navigate backwards and while doubly linked lists are somewhat easier to read, memory is consumed in allocating space for a back-pointer.
 
-### Implementation
-#### Java
+## Implementation
+### Java
 ```
 import java.util.List;
 
@@ -113,13 +113,4 @@ public class LinkedListTest {
   }
 }
 ```
-#### Javascript
-
-## Binary [Search] Trees
-## Tries
-## Stacks
-## Queues
-### Priority Queue
-### Heap
-## Vectors/ArrayLists
-##  Hash Tables
+### Javascript

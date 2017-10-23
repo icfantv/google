@@ -46,7 +46,16 @@ If the algorithm is complicated or highly numerical (bit shifting, arithmetic, e
 When you find mistakes, DEBUG YOUR CODE!  Don't just "randomly" change stuff to fix the error.  Think about WHY the bug is occurring.  If you just start changing stuff without thinking about it, it's going to be a HUGE red flag in your interview and as well it should.
 
 # Data Structures
-[This section](data-structures.md) contains a list of the MINIMAL amount of data structures you should know for the interview.
+This section contains a list of the MINIMAL amount of data structures you should know for the interview:
+
+* [Hash Tables](data-structures/hash-table.md)
+* [Linked Lists](data-structures/linked-list.md)
+* [Lists](data-structures/list.md)
+* [Queues](data-structures/queue.md)
+* [Stacks](data-structures/stack.md)
+* [Trees](data-structures/tree.md)
+* [Tries](data-structures/trie.md)
+
 
 # Algorithm Approaches
 There is no magic panacea for determining an algorithm.  In fact, most problems have more than one solution.  Note that they can also be mix-and-matched.
