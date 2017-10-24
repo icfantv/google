@@ -1,7 +1,7 @@
 # Queues
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 
-A Queue is a collection in which the entities are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue.
+A queue is a collection in which the entities are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue.
 This makes the queue a FIFO (first-in first-out) data structure, that is, they are removed in insertion order - elements inserted first are removed first.
 Often a _peek_ or _front_ method exists to allow visibility into the first item without dequeuing it.
 
