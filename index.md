@@ -24,7 +24,11 @@ Ask questions to resolve ambiguities or uncertainties.  Confirm inputs meet (or 
 ### Design an Algorithm
 This is probably going to be the tough part.  Follow the steps [outlined here](#algorithm-approaches) for help.  Don't forget to think about:
 
-* What are the space and time complexities?* What happens if there is a lot of data?* Does your design cause other issues? (e.g. if you modify an existing, well-known algorithm, did you change the big-O time for operations?)* If there are other issues, did you make the right trade-offs?* Have you leveraged any specific information given to you?  (**Pay attention to this!**  Google interviewers will specifically look for whether or not you listen to and utilize any advice/tips/etc...)
+* What are the space and time complexities?
+* What happens if there is a lot of data?
+* Does your design cause other issues? (e.g. if you modify an existing, well-known algorithm, did you change the big-O time for operations?)
+* If there are other issues, did you make the right trade-offs?
+* Have you leveraged any specific information given to you?  (**Pay attention to this!**  Google interviewers will specifically look for whether or not you listen to and utilize any advice/tips/etc...)
  * This includes, e.g., data types for inputs **AND** during your actual white-boarding session.
 
 ### Pseudo-Code
@@ -50,7 +54,6 @@ This section contains a list of the MINIMAL amount of data structures you should
 
 * [Hash Tables](data-structures/hash-table.md)
 * [Linked Lists](data-structures/linked-list.md)
-* [Lists](data-structures/list.md)
 * [Queues](data-structures/queue.md)
 * [Stacks](data-structures/stack.md)
 * [Trees](data-structures/tree.md)
