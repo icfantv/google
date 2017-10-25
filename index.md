@@ -66,7 +66,13 @@ There is no magic panacea for determining an algorithm.  In fact, most problems 
 TBH, I started filling this in, but it was essentially the same information in _Cracking the Coding Interview_ so for all the juicy details, just read that (which you should do anyway).
 
 # Algorithms
-[This section](algorithms.md) contains a list of the MINIMAL amount of algorithms you should know for the interview.
+This section contains a list of the MINIMAL amount of algorithms you should know for the interview.
+
+* [Breadth-first Search](algorithms/bfs.md)
+* [Depth-first Search](algorithms/dfs.md)
+* [Quicksort](algorithms/quicksort.md)
+* [Merge Sort](algorithms/mergesort.md)
+* [Tree Operations](algorithms/treeops.md)
 
 # Concepts
 [This section](concepts.md) contains a list of the MINIMAL amount of concepts you should know for the interview.
