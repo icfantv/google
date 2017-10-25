@@ -37,7 +37,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 
 ## Implementation
 ### Java
-```
+```java
 import java.util.List;
 
 public class LinkedListTest {

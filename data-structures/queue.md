@@ -7,7 +7,7 @@ Often a _peek_ or _front_ method exists to allow visibility into the first item 
 
 ### Implementation
 #### Javascript
-```
+```javascript
 const queue = [];
 queue.push(2);         // queue is now [2]
 queue.push(5);         // queue is now [2, 5]
@@ -17,27 +17,30 @@ let i = queue.shift(); // queue is now [5], i === 2
 **NB**:  [The ECMAScript Language Specification](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.9) indicates that `Array.shift()` is an O(n) operation.  A better implementation of a queue in Javascript would be
 [this version](http://code.stephenmorley.org/javascript/queues) which maintains an internal offset (pointer) to the head of the queue and calls `Array.slice` to remove the empty cells from the head of the queue:
 
-```
-  const queue = [];
+```javascript
+
+  function Queue() {
+    
+  let queue = [];
   let offset = 0;
 
-  this.dequeue = function() {
+    this.dequeue = function() {
 
-    // if the queue is empty, return immediately
-    if (queue.length == 0) return undefined;
+      // if the queue is empty, return immediately
+      if (queue.length === 0) return undefined;
 
-    // store the item at the front of the queue
-    const item = queue[offset];
+     // store the item at the front of the queue
+      const item = queue[offset];
 
-    // increment the offset and remove the free space if necessary
-    if (++offset * 2 >= queue.length){
-      queue = queue.slice(offset);
-      offset = 0;
+      // increment the offset and remove the free space if necessary
+      if (++offset * 2 >= queue.length){
+        queue = queue.slice(offset);
+        offset = 0;
+      }
+
+      return item;
     }
-
-    return item;
   }
-
 ```
 
 ## Priority Queue
@@ -50,7 +53,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Heap_(data_structure))
 
 A specialized, tree-based structure that satisfies the _heap property_: if P is a parent node of C, then the _key_ (the _value_) of P is either greater than or equal to (_max heap_) or less than or equal to (_min heap_) the key of C.  The node at the "top" of the heap (with no parents) is called the _root_ node.
 
-A binary heap:
+A complete binary (max) heap:
 ```
              100
             /   \
@@ -61,3 +64,21 @@ A binary heap:
      /  \
     2    7
 ```
+
+A complete binary (min) heap:
+```
+             1
+           /   \
+          /     \
+         2       3
+        / \     /  \
+      17  19   36   7
+     /  \
+    25  100
+```
+## Performance
+| Operation    | Average    | Worst Case |
+|:-------------|:-----------|:-----------|
+| Insert       | O(_log n_) | O(_log n_) |
+| Read (min)   | O(1)       | O(1)       |
+| Delete (min) | O(_log n_) | O(_log n_) |
