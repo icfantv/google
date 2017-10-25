@@ -4,13 +4,14 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 A tree data structure in which each node has at most two children, referred to as the _left_ and _right child_.
 
 Example:
-![tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
 
+![tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
 
 # Binary Search Trees (BST)
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 A special type of binary tree such that the nodes are sorted by their key:
+
 ![bst](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
 ## Performance
