@@ -5,7 +5,7 @@ A linear collection of data elements in which linear order is not given by physi
 
 It is a data structure consisting of a group of nodes which together represent a sequence:
 
-`12 •--> 99 •--> 37 •--> ⊠`
+![linked list](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 For a doubly-linked list, an additional reference is added to each element that points to the previous element.
 

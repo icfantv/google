@@ -5,4 +5,4 @@ A kind of ordered search tree data structure that is used to store a dynamic set
 
 Example:
 
-![trie](trie.png)
+![trie](https://upload.wikimedia.org/wikipedia/commons/b/be/Trie_example.svg)

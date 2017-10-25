@@ -4,33 +4,14 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 A tree data structure in which each node has at most two children, referred to as the _left_ and _right child_.
 
 Example:
+![tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
 
-```
-       2
-      / \
-    /     \
-   7       5
-  / \       \
- 2   6       9
-    / \     /
-   5  11   4
-```
 
 # Binary Search Trees (BST)
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 A special type of binary tree such that the nodes are sorted by their key:
-
-```
-       8
-      / \
-    /     \
-   3       10
-  / \       \
- 1   6       14
-    / \     /
-   4   7   13
-```
+![bst](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
 ## Performance
 | Operation | Average    | Worst Case |
@@ -46,32 +27,10 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Self-balancing_binary_search_t
 A special type of BST that automatically keeps its height small for arbitrary insertions and deletions.
 
 Unbalanced BST:
-```
-           50
-          /  \
-         /    \
-       17      76
-      /  \     /
-     /    \   54
-    9     23   \
-     \    /    72
-     14  19    /
-     /        67
-    12
-```
+![unbalanced binary tree](https://upload.wikimedia.org/wikipedia/commons/a/a9/Unbalanced_binary_tree.svg)
 
 The same tree, but after balancing:
-```
-           50
-          /  \
-         /    \
-       17      72
-      /  \     / \
-     /    \   54  76
-    12     23  \
-   /  \    /   67
-  9   14  19
-```
+![balanced binary tree](https://upload.wikimedia.org/wikipedia/commons/0/06/AVLtreef.svg)
 
 ## Balanced BST Performance
 | Operation | Average    | Worst Case |

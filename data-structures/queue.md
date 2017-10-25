@@ -54,28 +54,11 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Heap_(data_structure))
 A specialized, tree-based structure that satisfies the _heap property_: if P is a parent node of C, then the _key_ (the _value_) of P is either greater than or equal to (_max heap_) or less than or equal to (_min heap_) the key of C.  The node at the "top" of the heap (with no parents) is called the _root_ node.
 
 A complete binary (max) heap:
-```
-             100
-            /   \
-           /     \
-         19       36
-        /  \     /  \
-      17    3   25   1
-     /  \
-    2    7
-```
+![max heap](https://upload.wikimedia.org/wikipedia/commons/3/38/Max-Heap.svg)
 
 A complete binary (min) heap:
-```
-             1
-           /   \
-          /     \
-         2       3
-        / \     /  \
-      17  19   36   7
-     /  \
-    25  100
-```
+![min heap](https://upload.wikimedia.org/wikipedia/commons/6/69/Min-heap.png)
+
 ## Performance
 | Operation    | Average    | Worst Case |
 |:-------------|:-----------|:-----------|
