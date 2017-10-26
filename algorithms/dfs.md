@@ -1,11 +1,16 @@
 # Depth First Search
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
 
-An algorithm for traversing tree or graph structures by starting at the root node and explores as far along each branch before back tracking.
+An algorithm for traversing tree or graph structures by starting at the root node and exploring as far along each branch before back tracking.
 
 This example shows the order of node traversal:
 
 ![depth first tree](https://upload.wikimedia.org/wikipedia/commons/1/1f/Depth-first-tree.svg)
+
+## Performance
+| Operation | Average          |
+|:----------|:-----------------|
+| Search    | O(\|V\| + \|E\|) |
 
 ## Recursive Algorithm
 
