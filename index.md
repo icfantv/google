@@ -68,6 +68,7 @@ TBH, I started filling this in, but it was essentially the same information in _
 ## Strategy
 
 * Get a clear definition of the problem
+  * State the problem in English
 * Note the expected inputs
   * Look for potential issues with the inputs:
     * Wrong data type
@@ -78,6 +79,7 @@ TBH, I started filling this in, but it was essentially the same information in _
 * Note the expected output(s)
 * List any assumptions
 * Based on inputs/outputs, construct test cases to evaluate as you code
+* Construct a pseudo-code algorithm (inform interviewer you're doing this)
 
 ## Take Home Lessons
 
