@@ -63,7 +63,27 @@ This section contains a list of the MINIMAL amount of data structures you should
 # Algorithm Approaches
 There is no magic panacea for determining an algorithm.  In fact, most problems have more than one solution.  Note that they can also be mix-and-matched.
 
-TBH, I started filling this in, but it was essentially the same information in _Cracking the Coding Interview_ so for all the juicy details, just read that (which you should do anyway).
+TBH, I started filling this in, but it was essentially the same information in _Cracking the Coding Interview_ and _The Algorithm Design Manual_ so for all the juicy details, just read both of them (which you should probably do anyway).
+
+## Strategy
+
+* Get a clear definition of the problem
+* Note the expected inputs
+  * Look for potential issues with the inputs:
+    * Wrong data type
+    * Nulls
+    * If numbers, are they negative?
+    * Empty collections
+  * Do you need to handle bad inputs?
+* Note the expected output(s)
+* List any assumptions
+* Based on inputs/outputs, construct test cases to evaluate as you code
+
+## Take Home Lessons
+
+* There is a fundamental difference between _algorithms_, which always produce a correct result, and _heuristics_, which may usually do a good job but without providing any guarantee.
+* Reasonable-looking algorithms can easily be incorrect. Algorithm correctness is a property that must be carefully demonstrated.
+* The heart of any algorithm is an idea. If your idea is not clearly revealed when you express an algorithm, then you are using too low-level a notation to describe it.
 
 # Algorithms
 This section contains a list of the MINIMAL amount of algorithms you should know for the interview.

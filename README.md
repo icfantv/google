@@ -3,8 +3,9 @@ This repository is meant to be my study guide for a Java interview @ Google.  Mu
 
 You probably want to [start here](index.md).
 
-Sources used (probably not inclusive, my bad):
+Sources used (almost certainly not inclusive, my bad):
 
 * Wikipedia
-* _Cracking the Coding Interview_, 4th Ed. by Gayle McDowell
+* _Cracking the Coding Interview_, 4th Ed., by Gayle McDowell
+* _The Algorithm Design Manual_, 2nd Ed., by Steven Skiena
 * ...others to come as I use them
