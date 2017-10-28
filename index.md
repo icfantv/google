@@ -74,12 +74,31 @@ TBH, I started filling this in, but it was essentially the same information in _
     * Wrong data type
     * Nulls
     * If numbers, are they negative?
-    * Empty collections
+    * Empty collections, or collections with data gaps
+    * Size of input (how many items?)
   * Do you need to handle bad inputs?
 * Note the expected output(s)
 * List any assumptions
 * Based on inputs/outputs, construct test cases to evaluate as you code
+  * Don't forget boundary conditions
 * Construct a pseudo-code algorithm (inform interviewer you're doing this)
+* Take note of potential speed issues and circle back (if/when possible).
+
+## Determining Types
+
+* Permutations (_arrangement_, _tour_, _ordering_, _sequence_)
+* Subsets (_cluster_, _collection_, _committee_, _group_, _packaging_, _selection_)
+* Trees (_hierarchy_, _dominance relationship_, _ancestor/descendant relationship_, _taxonomy_)
+* Graphs (_network_, _circuit_, _web_, _relationship_)
+* Points (_sites_, _positions_, _data records_, _locations_)
+* Polygons (_shapes_, _regions_, _configurations_, _boundaries_)
+* Strings (_text_, _characters_, _patterns_, _labels_)
+
+## Recursion
+Source: _The Algorithm Design Manual_
+
+Recursive descriptions of objects require both decomposition rules and basis cases, namely the specification of the smallest and simplest objects where the decomposition stops. These basis cases are usually easily defined. Permutations and subsets of zero things presumably look like `{}`. The smallest interesting tree or graph consists of a single vertex, while the smallest interesting point cloud consists of a single point. Polygons are a little trickier; the smallest genuine simple polygon is a triangle. Finally, the empty string has zero characters in it. The decision of whether the basis case contains zero or one element is more a question of taste and convenience than any fundamental principle.
+
 
 ## Take Home Lessons
 
