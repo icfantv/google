@@ -1,7 +1,3 @@
-# Big-O Time
-
-A term in computer science used to describe the performance or complexity of an algorithm.  Specifically, it describes the worst-case scenario and is typically used to indicate the time an algorithm will take to execute.
-
 # Bit Manipulation
 
 ## Operations Table
@@ -72,15 +68,3 @@ Step:          1             2          3           4         5
 3. Add one to this new number.
 4. Solve the problem using normal, bitwise addition rules.
 5. Drop the leading 1 as this is the overflow bit.  If there wasn't an overflow bit, then we tried to subtract a larger number from a smaller one.
-
-
-
-# Factory Design Pattern
-
-# Memory (Stack vs. Heap)
-
-# Recursion
-
-# Singleton Design Pattern
-
-# Tree Traversal

@@ -116,4 +116,13 @@ This section contains a list of the MINIMAL amount of algorithms you should know
 * [Tree Operations](algorithms/treeops.md)
 
 # Concepts
-[This section](concepts.md) contains a list of the MINIMAL amount of concepts you should know for the interview.
+This section contains a list of the MINIMAL amount of concepts you should know for the interview.
+
+* Big-O Time
+  * A term in computer science used to describe the performance or complexity of an algorithm.  Specifically, it describes the worst-case scenario and is typically used to indicate the time an algorithm will take to execute.
+* [Bit Manipulation](concepts/bits.md)
+* [Factory Design Pattern](concepts/factory.md)
+* [Memory (Stack vs. Heap)](concepts/memory.md)
+* [Recursion](concepts/recursion.md)
+* [Singleton Design Pattern](concepts/singleton.md)
+* [Tree Traversal](concepts/traversal.md)
